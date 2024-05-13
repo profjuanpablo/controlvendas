@@ -1,4 +1,6 @@
-﻿using ControlVendas.Services;
+﻿using ControlVendas.Models;
+using ControlVendas.Models.ViewModels;
+using ControlVendas.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControlVendas.Controllers
@@ -19,6 +21,24 @@ namespace ControlVendas.Controllers
             return View(list);
         }
 
+        public async Task<IActionResult> Create() { 
+            var departments = await _departmentService.FindAllAsync();
+            var viewModel = new SellerFormViewModel { Departments = departments };
+            return View(viewModel);
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> Create(Seller seller)
+        {
+            if (!ModelState.IsValid)
+            {
+                var departments = await _departmentService.FindAllAsync();
+                var viewModel = new SellerFormViewModel { Seller = seller, Departments = departments };
+                return View(viewModel);
+            }
+            await _sellerService.InsertAsync(seller);
+            return RedirectToAction(nameof(Index));
+
+        }
     }
 }

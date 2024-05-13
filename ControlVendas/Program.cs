@@ -1,4 +1,5 @@
 using ControlVendas.Data;
+using ControlVendas.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ControlVendasContext>(options=>
    options.UseSqlServer(builder.Configuration.GetConnectionString("ControlVendasContext") ?? throw new InvalidOperationException("Connection string 'ControlVendasContext' not found.")));
 
+builder.Services.AddScoped<SellerService>();
+builder.Services.AddScoped<DepartmentService>();
 
 var app = builder.Build();
 
@@ -21,6 +24,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 
 app.UseRouting();
 

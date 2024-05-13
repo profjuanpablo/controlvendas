@@ -11,6 +11,7 @@ namespace ControlVendas.Data
             : base(options) { }
 
         public DbSet<Seller> Seller { get; set; }
+        public DbSet<Department> Department { get; set; }
         
 
     }

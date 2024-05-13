@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\profj\\source\\repos\\ControlVendas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|c:\\users\\profj\\source\\repos\\controlvendas\\controlvendas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|solutionrelative:controlvendas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Migrations\\20240513143510_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControlVendas\\Migrations\\20240513143510_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|c:\\users\\profj\\source\\repos\\controlvendas\\controlvendas\\data\\controlvendascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|solutionrelative:controlvendas\\data\\controlvendascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|c:\\users\\profj\\source\\repos\\controlvendas\\controlvendas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|solutionrelative:controlvendas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|c:\\users\\profj\\source\\repos\\controlvendas\\controlvendas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|solutionrelative:controlvendas\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|c:\\users\\profj\\source\\repos\\controlvendas\\controlvendas\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|solutionrelative:controlvendas\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|c:\\users\\profj\\source\\repos\\controlvendas\\controlvendas\\controllers\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|solutionrelative:controlvendas\\controllers\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|c:\\users\\profj\\source\\repos\\controlvendas\\controlvendas\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|solutionrelative:controlvendas\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{031100D4-2095-4186-AEE3-65D9BFAC8EF3}|ControlVendas\\ControlVendas.csproj|c:\\users\\profj\\source\\repos\\controlvendas\\controlvendas\\views\\sellers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,107 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240513143510_CreateDB.cs",
-              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Migrations\\20240513143510_CreateDB.cs",
-              "RelativeDocumentMoniker": "ControlVendas\\Migrations\\20240513143510_CreateDB.cs",
-              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Migrations\\20240513143510_CreateDB.cs",
-              "RelativeToolTip": "ControlVendas\\Migrations\\20240513143510_CreateDB.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:35:11.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\appsettings.json",
-              "RelativeDocumentMoniker": "ControlVendas\\appsettings.json",
-              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\appsettings.json",
-              "RelativeToolTip": "ControlVendas\\appsettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T14:22:29.058Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ControlVendas\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ControlVendas\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T17:43:10.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Program.cs",
               "RelativeDocumentMoniker": "ControlVendas\\Program.cs",
               "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Program.cs",
               "RelativeToolTip": "ControlVendas\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:16:22.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Seller.cs",
-              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Models\\Seller.cs",
-              "RelativeDocumentMoniker": "ControlVendas\\Models\\Seller.cs",
-              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Models\\Seller.cs",
-              "RelativeToolTip": "ControlVendas\\Models\\Seller.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBAAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:12:18.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ControlVendasContext.cs",
-              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Data\\ControlVendasContext.cs",
-              "RelativeDocumentMoniker": "ControlVendas\\Data\\ControlVendasContext.cs",
-              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Data\\ControlVendasContext.cs",
-              "RelativeToolTip": "ControlVendas\\Data\\ControlVendasContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:02:01.079Z",
+              "WhenOpened": "2024-05-13T17:34:40.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SellerService.cs",
-              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Services\\SellerService.cs",
-              "RelativeDocumentMoniker": "ControlVendas\\Services\\SellerService.cs",
-              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Services\\SellerService.cs",
-              "RelativeToolTip": "ControlVendas\\Services\\SellerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T13:57:32.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SellersController.cs",
-              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Controllers\\SellersController.cs",
-              "RelativeDocumentMoniker": "ControlVendas\\Controllers\\SellersController.cs",
-              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Controllers\\SellersController.cs",
-              "RelativeToolTip": "ControlVendas\\Controllers\\SellersController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T13:54:41.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Views\\Sellers\\Index.cshtml",
               "RelativeDocumentMoniker": "ControlVendas\\Views\\Sellers\\Index.cshtml",
               "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Views\\Sellers\\Index.cshtml",
               "RelativeToolTip": "ControlVendas\\Views\\Sellers\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T13:54:23.611Z"
+              "WhenOpened": "2024-05-13T17:30:16.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SellerService.cs",
+              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Services\\SellerService.cs",
+              "RelativeDocumentMoniker": "ControlVendas\\Services\\SellerService.cs",
+              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Services\\SellerService.cs",
+              "RelativeToolTip": "ControlVendas\\Services\\SellerService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:29:23.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SellersController.cs",
+              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Controllers\\SellersController.cs",
+              "RelativeDocumentMoniker": "ControlVendas\\Controllers\\SellersController.cs",
+              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Controllers\\SellersController.cs",
+              "RelativeToolTip": "ControlVendas\\Controllers\\SellersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:24:25.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Models\\Seller.cs",
+              "RelativeDocumentMoniker": "ControlVendas\\Models\\Seller.cs",
+              "ToolTip": "C:\\Users\\profj\\source\\repos\\ControlVendas\\ControlVendas\\Models\\Seller.cs",
+              "RelativeToolTip": "ControlVendas\\Models\\Seller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:24:05.747Z",
+              "EditorCaption": ""
             }
           ]
         }

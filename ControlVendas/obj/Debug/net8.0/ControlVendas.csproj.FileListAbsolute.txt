@@ -134,3 +134,4 @@ C:\Users\profj\source\repos\ControlVendas\ControlVendas\bin\Debug\net8.0\runtime
 C:\Users\profj\source\repos\ControlVendas\ControlVendas\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\profj\source\repos\ControlVendas\ControlVendas\obj\Debug\net8.0\ControlVendas.csproj.AssemblyReference.cache
 C:\Users\profj\source\repos\ControlVendas\ControlVendas\obj\Debug\net8.0\ControlV.37D29120.Up2Date
+C:\Users\profj\source\repos\ControlVendas\ControlVendas\obj\Debug\net8.0\ControlVendas.sourcelink.json

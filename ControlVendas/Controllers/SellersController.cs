@@ -2,6 +2,7 @@
 using ControlVendas.Models.ViewModels;
 using ControlVendas.Services;
 using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ControlVendas.Controllers
 {
@@ -40,5 +41,43 @@ namespace ControlVendas.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id) 
+        {
+            if (id == null) {
+                return RedirectToAction(nameof(Index));
+            }
+
+            var obj = await _sellerService.FindByIdAsync(id);
+            if (obj == null)
+            {
+                return RedirectToAction(nameof(Index));
+
+            }
+            return View(obj);
+
+
+
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            try
+            {
+                await _sellerService.RemoveAsync(id.Value);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception e)
+            {
+                return RedirectToAction(nameof(Error), new { message = e.Message });
+            }
+        }
+
+
+
+
     }
 }

@@ -1,6 +1,7 @@
 ﻿using ControlVendas.Data;
 using ControlVendas.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace ControlVendas.Services;
 
@@ -40,6 +41,24 @@ public class SellerService
            // throw new IntegrityException("Can't delete seller because he/she has sales");
         }
 
+    }
+
+    public async Task UpdateAsync(Seller obj)
+    {
+        bool hasAny = await _context.Seller.AnyAsync(x => x.Id == obj.Id);
+        if (!hasAny)
+        {
+            throw new Exception("Id not found");
+        }
+        try
+        {
+            _context.Update(obj);
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException e)
+        {
+            //throw new DbConcurrencyException(e.Message);
+        }
     }
 
 
